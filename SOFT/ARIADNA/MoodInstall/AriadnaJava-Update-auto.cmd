@@ -1,3 +1,4 @@
+rem Скрипт для установки Java-модулей МИС Ариадны
 @echo off
 setlocal enabledelayedexpansion
 for /f "delims=." %%i in ('wmic.exe OS get LocalDateTime ^| find "."') do set sDateTime=%%i

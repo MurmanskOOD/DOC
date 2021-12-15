@@ -1,3 +1,4 @@
+rem Скрипт для обновления установленных java-модулей МИС Ариадна
 @ECHO OFF
 
 SET InstallPath=C:\ARIADNA\JAVA
