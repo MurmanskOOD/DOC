@@ -3,5 +3,5 @@
 3. [Oracle Client](../General_MED_departments/OracleClient19.md)
 4. [Radiant Dicom Viewer](Radiand.md)
 5. КриптоПро
-6. AriadnaJava - Контент
+6. [AriadnaJava](../ARIADNA/readme.md#2) - Контент
 7. ПО для всех рабочих станций 
