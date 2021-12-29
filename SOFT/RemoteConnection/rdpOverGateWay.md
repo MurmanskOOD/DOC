@@ -21,7 +21,7 @@
    - Для рутокен ![img_3.png](img_3.png) rutoken [https://www.rutoken.ru/support/download/windows/](https://www.rutoken.ru/support/download/windows/)
    - Для etoken ![img_4.png](img_4.png) Единый клиент JaCarta [https://www.aladdin-rd.ru/support/downloads/jacarta_client](https://www.aladdin-rd.ru/support/downloads/jacarta_client)
 3. Вставить токен в USB-порт, убедиться, что светодиод на нем горит
-4. Открыть программу "Панель управления Рутокен", перейти на вкладку сертификаты:
+4. Для Рутокен - Открыть программу "Панель управления Рутокен", перейти на вкладку сертификаты:
 ![img_2.png](img_2.png)
 5. Убеждаемся в том, срок действия сертификата актуален. Если нет - идем с токено в ИТ-кабинет.
 6. Смотрим на галочку зрегесрирован в списке сертификатов, если галочка не установлена - поставить.
