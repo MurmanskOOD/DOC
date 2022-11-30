@@ -13,7 +13,7 @@
 
 ### Мониторинг
 
-Для мониторинга написан (pacs_exporter) [https://github.com/yashamayurov/pacs_exporter], который сравнивает за сутки
+Для мониторинга написан [pacs_exporter](https://github.com/yashamayurov/pacs_exporter), который сравнивает за сутки
 
 ### Прием и пересылка изображений
 
