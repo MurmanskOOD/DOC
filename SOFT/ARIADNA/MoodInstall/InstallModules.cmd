@@ -12,6 +12,12 @@ CD I:
 
 IF Exist %ControlPath%	(GoTo BegLoop)
 CALL %InstallFileName% /S /D=%InstallPath%
+rem "Костыль для исправления инсталлятора, который вместо SetupAriadna.ver создает файл Ariadna.ver"
+IF exist "%InstallPath%\Bin\Ariadna.Ver" (
+    	DEL "%InstallPath%\Bin\SetupAriadna.ver"                
+	)
+	RENAME "%InstallPath%\Bin\Ariadna.ver" "SetupAriadna.ver"
+rem " конец Костыль для исправления инсталлятора, который вместо SetupAriadna.ver создает файл Ariadna.ver"
 COPY connection.xml %InstallPath%\bin\connection.xml
 
 REM Начало цикла

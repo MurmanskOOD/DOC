@@ -41,7 +41,12 @@ for %%A in (Arm*.bat) do (
 IF !coreupdated! EQU 1 (
 	CALL I:\SetupAriadna.exe /S /D=%InstallPath%
 	ECHO SetupAriadna.exe INSTALLED TO %InstallPath%
-	 
+rem "Костыль для исправления инсталлятора, который вместо SetupAriadna.ver создает файл Ariadna.ver"
+	IF exist "%ARIADNA_JAVA%\Bin\Ariadna.Ver" (
+    	DEL "%ARIADNA_JAVA%\Bin\SetupAriadna.ver"
+	)
+	RENAME "%ARIADNA_JAVA%\Bin\Ariadna.ver" "SetupAriadna.ver"
+rem " конец Костыль для исправления инсталлятора, который вместо SetupAriadna.ver создает файл Ariadna.ver"
 	) ELSE echo --- UPDATE IS NOT REQURED ---
 net use I:  /delete /y
 echo --- END ---
